@@ -11,7 +11,7 @@ import SwiftUI
 struct negoto: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ChatRoom()
         }
     }
 }
