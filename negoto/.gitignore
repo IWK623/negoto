@@ -42,4 +42,3 @@ fastlane/test_output
 
 iOSInjectionProject/
 
-!*.xcodeproj/project.pbxproj
