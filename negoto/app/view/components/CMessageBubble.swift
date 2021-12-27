@@ -12,15 +12,22 @@ struct CMessageBubble: View {
     var contentMessage: String
     
     var body: some View {
-        Text(contentMessage)
-            .padding(10)
-            .foregroundColor(Color.white)
-            .background(Color.blue)
-            .cornerRadius(10)
+        VStack{
+            Text(contentMessage)
+                .fontWeight(.bold)
+                    .foregroundColor(Color(red: 0.1, green: 0.1, blue: 0.1))
+                
+        }
+        .padding(20)
+        .background(Color.blue.opacity(0.5))
+        .cornerRadius(10)
+
+        
+
     }
 }
 
-struct Message_Previews: PreviewProvider {
+struct CMessageBubble_Previews: PreviewProvider {
     static var previews: some View {
         CMessageBubble(contentMessage: "This is test message.")
             .previewLayout(.sizeThatFits)

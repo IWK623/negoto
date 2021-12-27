@@ -9,14 +9,19 @@
 /* Begin PBXBuildFile section */
 		8C01614A27777063003BD6EE /* negoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C01614927777063003BD6EE /* negoto.swift */; };
 		8C01614B27777063003BD6EE /* negoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C01614927777063003BD6EE /* negoto.swift */; };
+		8C677CB72779D49D000BE210 /* CMessageBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C677CB62779D49D000BE210 /* CMessageBox.swift */; };
 		8C9933F5277761E0004A34AF /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9933F4277761E0004A34AF /* Tests_iOS.swift */; };
 		8C9933F7277761E0004A34AF /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9933F6277761E0004A34AF /* Tests_iOSLaunchTests.swift */; };
 		8C993401277761E0004A34AF /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C993400277761E0004A34AF /* Tests_macOS.swift */; };
 		8C993403277761E0004A34AF /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C993402277761E0004A34AF /* Tests_macOSLaunchTests.swift */; };
-		8C993406277761E0004A34AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9933DD277761DE004A34AF /* ContentView.swift */; };
-		8C993407277761E0004A34AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9933DD277761DE004A34AF /* ContentView.swift */; };
 		8C993408277761E0004A34AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C9933DE277761E0004A34AF /* Assets.xcassets */; };
 		8C993409277761E0004A34AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C9933DE277761E0004A34AF /* Assets.xcassets */; };
+		8CAC73352779E3D0000CB7E3 /* CMessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC73342779E3D0000CB7E3 /* CMessageBubble.swift */; };
+		8CAC733A2779F68E000CB7E3 /* ChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC73392779F68E000CB7E3 /* ChatRoom.swift */; };
+		8CAC733E2779FB37000CB7E3 /* ChatHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC733D2779FB37000CB7E3 /* ChatHelper.swift */; };
+		8CAC73402779FB87000CB7E3 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC733F2779FB87000CB7E3 /* MessageModel.swift */; };
+		8CAC7342277A0C3F000CB7E3 /* CMessageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC7341277A0C3F000CB7E3 /* CMessageList.swift */; };
+		8CAC7347277A1E24000CB7E3 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC7346277A1E24000CB7E3 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,7 @@
 /* Begin PBXFileReference section */
 		8C01614927777063003BD6EE /* negoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = negoto.swift; sourceTree = "<group>"; };
 		8C677CB22777726B000BE210 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		8C9933DD277761DE004A34AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8C677CB62779D49D000BE210 /* CMessageBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMessageBox.swift; sourceTree = "<group>"; };
 		8C9933DE277761E0004A34AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C9933E3277761E0004A34AF /* negoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = negoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9933E9277761E0004A34AF /* negoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = negoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +55,12 @@
 		8C9933FC277761E0004A34AF /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C993400277761E0004A34AF /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		8C993402277761E0004A34AF /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		8CAC73342779E3D0000CB7E3 /* CMessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMessageBubble.swift; sourceTree = "<group>"; };
+		8CAC73392779F68E000CB7E3 /* ChatRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoom.swift; sourceTree = "<group>"; };
+		8CAC733D2779FB37000CB7E3 /* ChatHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatHelper.swift; sourceTree = "<group>"; };
+		8CAC733F2779FB87000CB7E3 /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		8CAC7341277A0C3F000CB7E3 /* CMessageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMessageList.swift; sourceTree = "<group>"; };
+		8CAC7346277A1E24000CB7E3 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +108,8 @@
 		8C01614C27777098003BD6EE /* view */ = {
 			isa = PBXGroup;
 			children = (
+				8CAC733C2779FB26000CB7E3 /* models */,
+				8CAC733B2779FB20000CB7E3 /* helpers */,
 				8C01614E277770B9003BD6EE /* pages */,
 				8C01614D277770A8003BD6EE /* components */,
 			);
@@ -106,6 +119,9 @@
 		8C01614D277770A8003BD6EE /* components */ = {
 			isa = PBXGroup;
 			children = (
+				8CAC73332779E3BA000CB7E3 /* message */,
+				8C677CB52779D488000BE210 /* form */,
+				8CAC7346277A1E24000CB7E3 /* SwiftUIView.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -113,7 +129,7 @@
 		8C01614E277770B9003BD6EE /* pages */ = {
 			isa = PBXGroup;
 			children = (
-				8C9933DD277761DE004A34AF /* ContentView.swift */,
+				8CAC73392779F68E000CB7E3 /* ChatRoom.swift */,
 			);
 			path = pages;
 			sourceTree = "<group>";
@@ -124,6 +140,14 @@
 				8C9933DE277761E0004A34AF /* Assets.xcassets */,
 			);
 			path = assets;
+			sourceTree = "<group>";
+		};
+		8C677CB52779D488000BE210 /* form */ = {
+			isa = PBXGroup;
+			children = (
+				8C677CB62779D49D000BE210 /* CMessageBox.swift */,
+			);
+			name = form;
 			sourceTree = "<group>";
 		};
 		8C9933D6277761DE004A34AF = {
@@ -173,6 +197,31 @@
 				8C993402277761E0004A34AF /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		8CAC73332779E3BA000CB7E3 /* message */ = {
+			isa = PBXGroup;
+			children = (
+				8CAC73342779E3D0000CB7E3 /* CMessageBubble.swift */,
+				8CAC7341277A0C3F000CB7E3 /* CMessageList.swift */,
+			);
+			name = message;
+			sourceTree = "<group>";
+		};
+		8CAC733B2779FB20000CB7E3 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8CAC733D2779FB37000CB7E3 /* ChatHelper.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		8CAC733C2779FB26000CB7E3 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				8CAC733F2779FB87000CB7E3 /* MessageModel.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,8 +382,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C993406277761E0004A34AF /* ContentView.swift in Sources */,
+				8C677CB72779D49D000BE210 /* CMessageBox.swift in Sources */,
+				8CAC733E2779FB37000CB7E3 /* ChatHelper.swift in Sources */,
+				8CAC7347277A1E24000CB7E3 /* SwiftUIView.swift in Sources */,
+				8CAC73402779FB87000CB7E3 /* MessageModel.swift in Sources */,
+				8CAC73352779E3D0000CB7E3 /* CMessageBubble.swift in Sources */,
+				8CAC733A2779F68E000CB7E3 /* ChatRoom.swift in Sources */,
 				8C01614A27777063003BD6EE /* negoto.swift in Sources */,
+				8CAC7342277A0C3F000CB7E3 /* CMessageList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,7 +397,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C993407277761E0004A34AF /* ContentView.swift in Sources */,
 				8C01614B27777063003BD6EE /* negoto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
