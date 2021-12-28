@@ -15,7 +15,8 @@ struct CMessageList: View {
     var body: some View {
         ScrollViewReader { proxy in
             ScrollView {
-                VStack{
+                VStack(){
+                    Rectangle().frame(height: 1000).opacity(0)
                     ForEach(chatHelper.messages.indices, id: \.self) { i in
                         CMessageBubble(contentMessage: chatHelper.messages[i].text)
                     }
@@ -30,6 +31,7 @@ struct CMessageList: View {
 struct CMessageList_Previews: PreviewProvider {
     
     static var previews: some View {
-        CMessageList(chatHelper: ChatHelper())
+        CMessageList(chatHelper: getChatHelperMock())
     }
 }
+

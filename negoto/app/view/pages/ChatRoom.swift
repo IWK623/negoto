@@ -11,6 +11,10 @@ struct ChatRoom: View {
     
     @ObservedObject var chatHelper = getChatHelperMock()
     
+    init() {
+        chatHelper.startPick()
+    }
+    
     var body: some View {
         VStack{
             CMessageList(chatHelper: chatHelper)
@@ -36,7 +40,10 @@ func getChatHelperMock() -> ChatHelper {
     helper.pushMessage(message: MessageModel(message: "悩みがあります。仕事の悩みなのですが、私より20歳年上の方なのですが体型がかなり大きく筋肉がかなりある方で私が仕 などと言って来ます。、正直かなりめんどくさいのですがどうすれば良いでしょうか？"))
     helper.pushMessage(message: MessageModel(message: "ノーマルとかの写真を昼間とか明るいところでとるとほんとに盛れません。でもくらい所？とかまぁ暗くなくても携帯の隣に違う携帯でライトたいてとると盛れます！顔が薄いからライト当てると盛れるのでしょうか昼間の方が写真撮るからそっちをなんとか盛りたい、でも顔がはっきり映らないから盛れないです"))
     helper.pushMessage(message: MessageModel(message: "悩みを聞いてください。 私は口下手で人に物事を説明する事が苦手です。 改善しようにも、何からどうやって改善すればいいのかも分かりません 色々、思うままに書いたので読みづらいと思いますが皆様の意見を下さい。"))
-    
+//
+    helper.pickMessage()
+    helper.pickMessage()
+
     
     return helper
 }

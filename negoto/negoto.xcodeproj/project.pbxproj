@@ -22,6 +22,8 @@
 		8CAC73402779FB87000CB7E3 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC733F2779FB87000CB7E3 /* MessageModel.swift */; };
 		8CAC7342277A0C3F000CB7E3 /* CMessageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC7341277A0C3F000CB7E3 /* CMessageList.swift */; };
 		8CAC7347277A1E24000CB7E3 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC7346277A1E24000CB7E3 /* SwiftUIView.swift */; };
+		8CAC7349277B3A3A000CB7E3 /* MessagePickScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC7348277B3A3A000CB7E3 /* MessagePickScheduler.swift */; };
+		8CF812C5277B49080021EDC0 /* Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF812C4277B49080021EDC0 /* Tokenizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		8CAC733F2779FB87000CB7E3 /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
 		8CAC7341277A0C3F000CB7E3 /* CMessageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMessageList.swift; sourceTree = "<group>"; };
 		8CAC7346277A1E24000CB7E3 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		8CAC7348277B3A3A000CB7E3 /* MessagePickScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePickScheduler.swift; sourceTree = "<group>"; };
+		8CF812C4277B49080021EDC0 /* Tokenizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokenizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,7 @@
 		8C01614C27777098003BD6EE /* view */ = {
 			isa = PBXGroup;
 			children = (
+				8CF812C3277B48FA0021EDC0 /* utils */,
 				8CAC733C2779FB26000CB7E3 /* models */,
 				8CAC733B2779FB20000CB7E3 /* helpers */,
 				8C01614E277770B9003BD6EE /* pages */,
@@ -212,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				8CAC733D2779FB37000CB7E3 /* ChatHelper.swift */,
+				8CAC7348277B3A3A000CB7E3 /* MessagePickScheduler.swift */,
 			);
 			path = helpers;
 			sourceTree = "<group>";
@@ -222,6 +228,14 @@
 				8CAC733F2779FB87000CB7E3 /* MessageModel.swift */,
 			);
 			path = models;
+			sourceTree = "<group>";
+		};
+		8CF812C3277B48FA0021EDC0 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				8CF812C4277B49080021EDC0 /* Tokenizer.swift */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -383,8 +397,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C677CB72779D49D000BE210 /* CMessageBox.swift in Sources */,
+				8CF812C5277B49080021EDC0 /* Tokenizer.swift in Sources */,
 				8CAC733E2779FB37000CB7E3 /* ChatHelper.swift in Sources */,
 				8CAC7347277A1E24000CB7E3 /* SwiftUIView.swift in Sources */,
+				8CAC7349277B3A3A000CB7E3 /* MessagePickScheduler.swift in Sources */,
 				8CAC73402779FB87000CB7E3 /* MessageModel.swift in Sources */,
 				8CAC73352779E3D0000CB7E3 /* CMessageBubble.swift in Sources */,
 				8CAC733A2779F68E000CB7E3 /* ChatRoom.swift in Sources */,
